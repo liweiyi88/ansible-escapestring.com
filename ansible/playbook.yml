@@ -49,7 +49,7 @@
     - name: Install Mysql
       become: true
       apt:
-        name: mysql-server
+        name: mysql-server-5.7
         state: latest
 
 
