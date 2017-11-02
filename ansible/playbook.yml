@@ -50,8 +50,6 @@
       become: true
       apt:
         name: mysql-server-5.7
-        state: latest
-
 
     - name: Check for composer
       stat:
